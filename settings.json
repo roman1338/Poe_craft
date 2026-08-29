@@ -1,0 +1,28 @@
+{
+  "delay_after_move": 0.05,
+  "delay_after_ctrl_c": 0.12,
+  "delay_after_click": 0.18,
+  "delay_between": 0.05,
+  "item": [
+    327,
+    446
+  ],
+  "alteration": [
+    110,
+    269
+  ],
+  "augmentation": [
+    220,
+    327
+  ],
+  "always_on_top": true,
+  "item_class": "Amulet",
+  "selected": [
+    {
+      "id": "life_flat",
+      "min_tier": null
+    }
+  ],
+  "alt_key_swap": true,
+  "humanize": true
+}

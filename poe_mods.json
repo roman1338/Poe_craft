@@ -1,0 +1,6275 @@
+{
+  "version": 1,
+  "note": "Тир 1 — лучший. Диапазоны ориентированы на PoE 1 (примерно 3.24+). Расширяйте файл своими модами.",
+  "item_classes": [
+    {
+      "id": "Helmet",
+      "groups": [
+        "armour",
+        "helmet"
+      ]
+    },
+    {
+      "id": "Body Armour",
+      "groups": [
+        "armour",
+        "body"
+      ]
+    },
+    {
+      "id": "Gloves",
+      "groups": [
+        "armour",
+        "gloves"
+      ]
+    },
+    {
+      "id": "Boots",
+      "groups": [
+        "armour",
+        "boots"
+      ]
+    },
+    {
+      "id": "Shield",
+      "groups": [
+        "armour",
+        "shield"
+      ]
+    },
+    {
+      "id": "Amulet",
+      "groups": [
+        "jewellery",
+        "amulet"
+      ]
+    },
+    {
+      "id": "Ring",
+      "groups": [
+        "jewellery",
+        "ring"
+      ]
+    },
+    {
+      "id": "Belt",
+      "groups": [
+        "jewellery",
+        "belt"
+      ]
+    },
+    {
+      "id": "Quiver",
+      "groups": [
+        "jewellery",
+        "quiver",
+        "weapon"
+      ]
+    },
+    {
+      "id": "Claw",
+      "groups": [
+        "weapon",
+        "attack"
+      ]
+    },
+    {
+      "id": "Dagger",
+      "groups": [
+        "weapon",
+        "attack",
+        "caster"
+      ]
+    },
+    {
+      "id": "Wand",
+      "groups": [
+        "weapon",
+        "caster"
+      ]
+    },
+    {
+      "id": "One Handed Sword",
+      "groups": [
+        "weapon",
+        "attack"
+      ]
+    },
+    {
+      "id": "One Handed Axe",
+      "groups": [
+        "weapon",
+        "attack"
+      ]
+    },
+    {
+      "id": "One Handed Mace",
+      "groups": [
+        "weapon",
+        "attack"
+      ]
+    },
+    {
+      "id": "Sceptre",
+      "groups": [
+        "weapon",
+        "caster",
+        "attack"
+      ]
+    },
+    {
+      "id": "Bow",
+      "groups": [
+        "weapon",
+        "attack",
+        "bow"
+      ]
+    },
+    {
+      "id": "Staff",
+      "groups": [
+        "weapon",
+        "caster"
+      ]
+    },
+    {
+      "id": "Two Handed Sword",
+      "groups": [
+        "weapon",
+        "attack"
+      ]
+    },
+    {
+      "id": "Two Handed Axe",
+      "groups": [
+        "weapon",
+        "attack"
+      ]
+    },
+    {
+      "id": "Two Handed Mace",
+      "groups": [
+        "weapon",
+        "attack"
+      ]
+    }
+  ],
+  "mods": [
+    {
+      "id": "life_flat",
+      "pattern": "+# to maximum Life",
+      "name": "Maximum Life",
+      "type": "Prefix",
+      "group": "Life",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Virile",
+            "ilvl": 44,
+            "min": [
+              55
+            ],
+            "max": [
+              64
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Rotund",
+            "ilvl": 36,
+            "min": [
+              45
+            ],
+            "max": [
+              54
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Robust",
+            "ilvl": 30,
+            "min": [
+              35
+            ],
+            "max": [
+              44
+            ]
+          },
+          {
+            "tier": 4,
+            "name": "Stout",
+            "ilvl": 24,
+            "min": [
+              25
+            ],
+            "max": [
+              34
+            ]
+          },
+          {
+            "tier": 5,
+            "name": "Stalwart",
+            "ilvl": 18,
+            "min": [
+              20
+            ],
+            "max": [
+              24
+            ]
+          },
+          {
+            "tier": 6,
+            "name": "Sanguine",
+            "ilvl": 11,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 7,
+            "name": "Healthy",
+            "ilvl": 5,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          },
+          {
+            "tier": 8,
+            "name": "Hale",
+            "ilvl": 1,
+            "min": [
+              3
+            ],
+            "max": [
+              4
+            ]
+          }
+        ],
+        "Body Armour": [
+          {
+            "tier": 1,
+            "name": "Prime",
+            "ilvl": 86,
+            "min": [
+              175
+            ],
+            "max": [
+              189
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Rapturous",
+            "ilvl": 81,
+            "min": [
+              160
+            ],
+            "max": [
+              174
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Vigorous",
+            "ilvl": 73,
+            "min": [
+              145
+            ],
+            "max": [
+              159
+            ]
+          },
+          {
+            "tier": 4,
+            "name": "Fecund",
+            "ilvl": 64,
+            "min": [
+              130
+            ],
+            "max": [
+              144
+            ]
+          },
+          {
+            "tier": 5,
+            "name": "Athlete's",
+            "ilvl": 54,
+            "min": [
+              115
+            ],
+            "max": [
+              129
+            ]
+          },
+          {
+            "tier": 6,
+            "name": "Virile",
+            "ilvl": 44,
+            "min": [
+              100
+            ],
+            "max": [
+              114
+            ]
+          },
+          {
+            "tier": 7,
+            "name": "Rotund",
+            "ilvl": 36,
+            "min": [
+              85
+            ],
+            "max": [
+              99
+            ]
+          },
+          {
+            "tier": 8,
+            "name": "Robust",
+            "ilvl": 30,
+            "min": [
+              70
+            ],
+            "max": [
+              84
+            ]
+          }
+        ],
+        "Helmet": [
+          {
+            "tier": 1,
+            "name": "Vigorous",
+            "ilvl": 73,
+            "min": [
+              95
+            ],
+            "max": [
+              104
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Fecund",
+            "ilvl": 64,
+            "min": [
+              85
+            ],
+            "max": [
+              94
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Athlete's",
+            "ilvl": 54,
+            "min": [
+              75
+            ],
+            "max": [
+              84
+            ]
+          },
+          {
+            "tier": 4,
+            "name": "Virile",
+            "ilvl": 44,
+            "min": [
+              65
+            ],
+            "max": [
+              74
+            ]
+          },
+          {
+            "tier": 5,
+            "name": "Rotund",
+            "ilvl": 36,
+            "min": [
+              55
+            ],
+            "max": [
+              64
+            ]
+          },
+          {
+            "tier": 6,
+            "name": "Robust",
+            "ilvl": 30,
+            "min": [
+              45
+            ],
+            "max": [
+              54
+            ]
+          }
+        ],
+        "Amulet": [
+          {
+            "tier": 1,
+            "name": "Virile",
+            "ilvl": 44,
+            "min": [
+              55
+            ],
+            "max": [
+              64
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Rotund",
+            "ilvl": 36,
+            "min": [
+              45
+            ],
+            "max": [
+              54
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Robust",
+            "ilvl": 30,
+            "min": [
+              35
+            ],
+            "max": [
+              44
+            ]
+          }
+        ],
+        "Ring": [
+          {
+            "tier": 1,
+            "name": "Virile",
+            "ilvl": 44,
+            "min": [
+              55
+            ],
+            "max": [
+              64
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Rotund",
+            "ilvl": 36,
+            "min": [
+              45
+            ],
+            "max": [
+              54
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Robust",
+            "ilvl": 30,
+            "min": [
+              35
+            ],
+            "max": [
+              44
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mana_flat",
+      "pattern": "+# to maximum Mana",
+      "name": "Maximum Mana",
+      "type": "Prefix",
+      "group": "Mana",
+      "groups": [
+        "armour",
+        "jewellery",
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Captain's",
+            "ilvl": 69,
+            "min": [
+              65
+            ],
+            "max": [
+              74
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Overlord's",
+            "ilvl": 55,
+            "min": [
+              55
+            ],
+            "max": [
+              64
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Emperor's",
+            "ilvl": 41,
+            "min": [
+              45
+            ],
+            "max": [
+              54
+            ]
+          },
+          {
+            "tier": 4,
+            "name": "Prior's",
+            "ilvl": 25,
+            "min": [
+              35
+            ],
+            "max": [
+              44
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "life_regen",
+      "pattern": "Regenerate # Life per second",
+      "name": "Life Regeneration",
+      "type": "Prefix",
+      "group": "LifeRegen",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Vivacious",
+            "ilvl": 83,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Hearty",
+            "ilvl": 58,
+            "min": [
+              11
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Healthy",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              10
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "phys_percent",
+      "pattern": "#% increased Physical Damage",
+      "name": "Increased Physical Damage",
+      "type": "Prefix",
+      "group": "PhysicalDamage",
+      "groups": [
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Tyrannical",
+            "ilvl": 83,
+            "min": [
+              155
+            ],
+            "max": [
+              169
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Merciless",
+            "ilvl": 64,
+            "min": [
+              135
+            ],
+            "max": [
+              154
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Brutal",
+            "ilvl": 46,
+            "min": [
+              110
+            ],
+            "max": [
+              134
+            ]
+          },
+          {
+            "tier": 4,
+            "name": "Cruel",
+            "ilvl": 29,
+            "min": [
+              75
+            ],
+            "max": [
+              109
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "add_phys_attacks",
+      "pattern": "Adds # to # Physical Damage to Attacks",
+      "name": "Added Physical Damage to Attacks",
+      "type": "Prefix",
+      "group": "AddedPhysicalDamage",
+      "groups": [
+        "jewellery",
+        "gloves"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Glinting",
+            "ilvl": 77,
+            "min": [
+              11,
+              22
+            ],
+            "max": [
+              15,
+              28
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Gleaming",
+            "ilvl": 52,
+            "min": [
+              7,
+              15
+            ],
+            "max": [
+              10,
+              21
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Polished",
+            "ilvl": 28,
+            "min": [
+              4,
+              8
+            ],
+            "max": [
+              6,
+              14
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "spell_damage",
+      "pattern": "#% increased Spell Damage",
+      "name": "Increased Spell Damage",
+      "type": "Prefix",
+      "group": "SpellDamage",
+      "groups": [
+        "caster",
+        "amulet",
+        "helmet"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Archmage's",
+            "ilvl": 77,
+            "min": [
+              75
+            ],
+            "max": [
+              89
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Professor's",
+            "ilvl": 58,
+            "min": [
+              55
+            ],
+            "max": [
+              74
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Scholar's",
+            "ilvl": 29,
+            "min": [
+              35
+            ],
+            "max": [
+              54
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "local_armour_percent",
+      "pattern": "#% increased Armour",
+      "name": "Increased Armour",
+      "type": "Prefix",
+      "group": "DefencesPercent",
+      "groups": [
+        "armour"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Impregnable",
+            "ilvl": 86,
+            "min": [
+              92
+            ],
+            "max": [
+              100
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Girded",
+            "ilvl": 60,
+            "min": [
+              68
+            ],
+            "max": [
+              91
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Thickened",
+            "ilvl": 30,
+            "min": [
+              27
+            ],
+            "max": [
+              67
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "local_evasion_percent",
+      "pattern": "#% increased Evasion Rating",
+      "name": "Increased Evasion Rating",
+      "type": "Prefix",
+      "group": "DefencesPercent",
+      "groups": [
+        "armour"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Vaporous",
+            "ilvl": 86,
+            "min": [
+              92
+            ],
+            "max": [
+              100
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Blurring",
+            "ilvl": 60,
+            "min": [
+              68
+            ],
+            "max": [
+              91
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Fleeting",
+            "ilvl": 30,
+            "min": [
+              27
+            ],
+            "max": [
+              67
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "local_es_percent",
+      "pattern": "#% increased Energy Shield",
+      "name": "Increased Energy Shield",
+      "type": "Prefix",
+      "group": "DefencesPercent",
+      "groups": [
+        "armour"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Unassailable",
+            "ilvl": 86,
+            "min": [
+              92
+            ],
+            "max": [
+              100
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Resplendent",
+            "ilvl": 60,
+            "min": [
+              68
+            ],
+            "max": [
+              91
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Glimmering",
+            "ilvl": 30,
+            "min": [
+              27
+            ],
+            "max": [
+              67
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "flat_es",
+      "pattern": "+# to maximum Energy Shield",
+      "name": "Flat Energy Shield",
+      "type": "Prefix",
+      "group": "EnergyShield",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Unfaltering",
+            "ilvl": 84,
+            "min": [
+              48
+            ],
+            "max": [
+              55
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Pixie's",
+            "ilvl": 68,
+            "min": [
+              39
+            ],
+            "max": [
+              47
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Strong-Willed",
+            "ilvl": 40,
+            "min": [
+              23
+            ],
+            "max": [
+              38
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fire_res",
+      "pattern": "+#% to Fire Resistance",
+      "name": "Fire Resistance",
+      "type": "Suffix",
+      "group": "FireResistance",
+      "groups": [
+        "armour",
+        "jewellery",
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Tzteosh",
+            "ilvl": 84,
+            "min": [
+              46
+            ],
+            "max": [
+              48
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Magma",
+            "ilvl": 60,
+            "min": [
+              42
+            ],
+            "max": [
+              45
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Furnace",
+            "ilvl": 44,
+            "min": [
+              36
+            ],
+            "max": [
+              41
+            ]
+          },
+          {
+            "tier": 4,
+            "name": "of the Volcano",
+            "ilvl": 24,
+            "min": [
+              30
+            ],
+            "max": [
+              35
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cold_res",
+      "pattern": "+#% to Cold Resistance",
+      "name": "Cold Resistance",
+      "type": "Suffix",
+      "group": "ColdResistance",
+      "groups": [
+        "armour",
+        "jewellery",
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Haast",
+            "ilvl": 84,
+            "min": [
+              46
+            ],
+            "max": [
+              48
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Ice",
+            "ilvl": 60,
+            "min": [
+              42
+            ],
+            "max": [
+              45
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Polar",
+            "ilvl": 44,
+            "min": [
+              36
+            ],
+            "max": [
+              41
+            ]
+          },
+          {
+            "tier": 4,
+            "name": "of the Glacier",
+            "ilvl": 24,
+            "min": [
+              30
+            ],
+            "max": [
+              35
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "lightning_res",
+      "pattern": "+#% to Lightning Resistance",
+      "name": "Lightning Resistance",
+      "type": "Suffix",
+      "group": "LightningResistance",
+      "groups": [
+        "armour",
+        "jewellery",
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Ephij",
+            "ilvl": 84,
+            "min": [
+              46
+            ],
+            "max": [
+              48
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Lightning",
+            "ilvl": 60,
+            "min": [
+              42
+            ],
+            "max": [
+              45
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Storm",
+            "ilvl": 44,
+            "min": [
+              36
+            ],
+            "max": [
+              41
+            ]
+          },
+          {
+            "tier": 4,
+            "name": "of the Tempest",
+            "ilvl": 24,
+            "min": [
+              30
+            ],
+            "max": [
+              35
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "all_res",
+      "pattern": "+#% to all Elemental Resistances",
+      "name": "All Elemental Resistances",
+      "type": "Suffix",
+      "group": "AllResistances",
+      "groups": [
+        "jewellery",
+        "shield"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of the Prism",
+            "ilvl": 85,
+            "min": [
+              15
+            ],
+            "max": [
+              16
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Crystal",
+            "ilvl": 55,
+            "min": [
+              12
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Rainbow",
+            "ilvl": 12,
+            "min": [
+              9
+            ],
+            "max": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "chaos_res",
+      "pattern": "+#% to Chaos Resistance",
+      "name": "Chaos Resistance",
+      "type": "Suffix",
+      "group": "ChaosResistance",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of the Lost",
+            "ilvl": 81,
+            "min": [
+              31
+            ],
+            "max": [
+              35
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of Exile",
+            "ilvl": 56,
+            "min": [
+              26
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of Expulsion",
+            "ilvl": 30,
+            "min": [
+              16
+            ],
+            "max": [
+              25
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "strength",
+      "pattern": "+# to Strength",
+      "name": "Strength",
+      "type": "Suffix",
+      "group": "Strength",
+      "groups": [
+        "armour",
+        "jewellery",
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of the Titan",
+            "ilvl": 82,
+            "min": [
+              51
+            ],
+            "max": [
+              55
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Gorilla",
+            "ilvl": 60,
+            "min": [
+              43
+            ],
+            "max": [
+              50
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Lion",
+            "ilvl": 33,
+            "min": [
+              28
+            ],
+            "max": [
+              42
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dexterity",
+      "pattern": "+# to Dexterity",
+      "name": "Dexterity",
+      "type": "Suffix",
+      "group": "Dexterity",
+      "groups": [
+        "armour",
+        "jewellery",
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of the Wind",
+            "ilvl": 82,
+            "min": [
+              51
+            ],
+            "max": [
+              55
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Falcon",
+            "ilvl": 60,
+            "min": [
+              43
+            ],
+            "max": [
+              50
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Lynx",
+            "ilvl": 33,
+            "min": [
+              28
+            ],
+            "max": [
+              42
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "intelligence",
+      "pattern": "+# to Intelligence",
+      "name": "Intelligence",
+      "type": "Suffix",
+      "group": "Intelligence",
+      "groups": [
+        "armour",
+        "jewellery",
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of the Genius",
+            "ilvl": 82,
+            "min": [
+              51
+            ],
+            "max": [
+              55
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Sage",
+            "ilvl": 60,
+            "min": [
+              43
+            ],
+            "max": [
+              50
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Student",
+            "ilvl": 33,
+            "min": [
+              28
+            ],
+            "max": [
+              42
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "attack_speed",
+      "pattern": "#% increased Attack Speed",
+      "name": "Increased Attack Speed",
+      "type": "Suffix",
+      "group": "AttackSpeed",
+      "groups": [
+        "weapon",
+        "gloves",
+        "quiver"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Celebration",
+            "ilvl": 77,
+            "min": [
+              26
+            ],
+            "max": [
+              27
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of Infamy",
+            "ilvl": 60,
+            "min": [
+              23
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of Fame",
+            "ilvl": 30,
+            "min": [
+              17
+            ],
+            "max": [
+              22
+            ]
+          }
+        ],
+        "Gloves": [
+          {
+            "tier": 1,
+            "name": "of Skill",
+            "ilvl": 63,
+            "min": [
+              14
+            ],
+            "max": [
+              16
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of Ease",
+            "ilvl": 30,
+            "min": [
+              11
+            ],
+            "max": [
+              13
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of Mastery",
+            "ilvl": 1,
+            "min": [
+              8
+            ],
+            "max": [
+              10
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_speed",
+      "pattern": "#% increased Cast Speed",
+      "name": "Increased Cast Speed",
+      "type": "Suffix",
+      "group": "CastSpeed",
+      "groups": [
+        "caster",
+        "jewellery",
+        "gloves"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Destruction",
+            "ilvl": 76,
+            "min": [
+              26
+            ],
+            "max": [
+              28
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of Sorcery",
+            "ilvl": 45,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of Enchanting",
+            "ilvl": 15,
+            "min": [
+              12
+            ],
+            "max": [
+              19
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crit_chance",
+      "pattern": "#% increased Critical Strike Chance",
+      "name": "Increased Critical Strike Chance",
+      "type": "Suffix",
+      "group": "CritChance",
+      "groups": [
+        "weapon",
+        "amulet",
+        "helmet"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Incision",
+            "ilvl": 73,
+            "min": [
+              35
+            ],
+            "max": [
+              38
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of Penetrating",
+            "ilvl": 44,
+            "min": [
+              25
+            ],
+            "max": [
+              34
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of Stinging",
+            "ilvl": 9,
+            "min": [
+              17
+            ],
+            "max": [
+              24
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crit_multi",
+      "pattern": "+#% to Global Critical Strike Multiplier",
+      "name": "Critical Strike Multiplier",
+      "type": "Suffix",
+      "group": "CritMulti",
+      "groups": [
+        "weapon",
+        "jewellery",
+        "helmet"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Destruction",
+            "ilvl": 73,
+            "min": [
+              35
+            ],
+            "max": [
+              38
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of Ruin",
+            "ilvl": 44,
+            "min": [
+              25
+            ],
+            "max": [
+              34
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of Ire",
+            "ilvl": 20,
+            "min": [
+              17
+            ],
+            "max": [
+              24
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "move_speed",
+      "pattern": "#% increased Movement Speed",
+      "name": "Movement Speed",
+      "type": "Suffix",
+      "group": "MovementSpeed",
+      "groups": [
+        "boots"
+      ],
+      "tiers_by_class": {
+        "Boots": [
+          {
+            "tier": 1,
+            "name": "of the Cheetah",
+            "ilvl": 65,
+            "min": [
+              30
+            ],
+            "max": [
+              35
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Gazelle",
+            "ilvl": 30,
+            "min": [
+              20
+            ],
+            "max": [
+              29
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Lynx",
+            "ilvl": 1,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "item_rarity",
+      "pattern": "#% increased Rarity of Items found",
+      "name": "Item Rarity",
+      "type": "Suffix",
+      "group": "ItemRarity",
+      "groups": [
+        "jewellery",
+        "helmet"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Raiding",
+            "ilvl": 75,
+            "min": [
+              26
+            ],
+            "max": [
+              28
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of Plunder",
+            "ilvl": 53,
+            "min": [
+              21
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of Collecting",
+            "ilvl": 20,
+            "min": [
+              12
+            ],
+            "max": [
+              20
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "accuracy",
+      "pattern": "+# to Accuracy Rating",
+      "name": "Accuracy Rating",
+      "type": "Suffix",
+      "group": "Accuracy",
+      "groups": [
+        "weapon",
+        "gloves",
+        "helmet",
+        "quiver",
+        "ring"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of the Ranger",
+            "ilvl": 76,
+            "min": [
+              401
+            ],
+            "max": [
+              440
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of the Sniper",
+            "ilvl": 46,
+            "min": [
+              201
+            ],
+            "max": [
+              400
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of the Marksman",
+            "ilvl": 20,
+            "min": [
+              51
+            ],
+            "max": [
+              200
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mana_regen",
+      "pattern": "#% increased Mana Regeneration Rate",
+      "name": "Mana Regeneration Rate",
+      "type": "Suffix",
+      "group": "ManaRegen",
+      "groups": [
+        "jewellery",
+        "helmet",
+        "caster"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "of Nirvana",
+            "ilvl": 78,
+            "min": [
+              60
+            ],
+            "max": [
+              69
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "of Excitement",
+            "ilvl": 42,
+            "min": [
+              40
+            ],
+            "max": [
+              59
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "of Elation",
+            "ilvl": 12,
+            "min": [
+              20
+            ],
+            "max": [
+              39
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "elem_dmg_with_attacks",
+      "pattern": "#% increased Elemental Damage with Attack Skills",
+      "name": "Elemental Damage with Attack Skills",
+      "type": "Prefix",
+      "group": "WeaponElementalDamage",
+      "groups": [
+        "jewellery",
+        "weapon"
+      ],
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "Catalysing",
+            "ilvl": 81,
+            "min": [
+              31
+            ],
+            "max": [
+              37
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "Infusing",
+            "ilvl": 42,
+            "min": [
+              21
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "Humming",
+            "ilvl": 4,
+            "min": [
+              11
+            ],
+            "max": [
+              20
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "all_attrs",
+      "pattern": "+# to all Attributes",
+      "name": "All Attributes",
+      "type": "Suffix",
+      "group": "AllAttributes",
+      "groups": [
+        "jewellery",
+        "shield"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              12
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "str_dex",
+      "pattern": "+# to Strength and Dexterity",
+      "name": "Strength and Dexterity",
+      "type": "Suffix",
+      "group": "HybridAttr",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              12
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "str_int",
+      "pattern": "+# to Strength and Intelligence",
+      "name": "Strength and Intelligence",
+      "type": "Suffix",
+      "group": "HybridAttr",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              12
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dex_int",
+      "pattern": "+# to Dexterity and Intelligence",
+      "name": "Dexterity and Intelligence",
+      "type": "Suffix",
+      "group": "HybridAttr",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              12
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "life_on_hit",
+      "pattern": "+# Life gained for each Enemy hit by your Attacks",
+      "name": "Life on Hit",
+      "type": "Suffix",
+      "group": "LifeOnHit",
+      "groups": [
+        "weapon",
+        "gloves",
+        "ring"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              7
+            ],
+            "max": [
+              10
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              4
+            ],
+            "max": [
+              6
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2
+            ],
+            "max": [
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "life_leech",
+      "pattern": "#% of Physical Attack Damage Leeched as Life",
+      "name": "Life Leech",
+      "type": "Prefix",
+      "group": "LifeLeech",
+      "groups": [
+        "weapon",
+        "ring"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              1.2
+            ],
+            "max": [
+              1.5
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              0.6
+            ],
+            "max": [
+              1.1
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              0.2
+            ],
+            "max": [
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mana_leech",
+      "pattern": "#% of Physical Attack Damage Leeched as Mana",
+      "name": "Mana Leech",
+      "type": "Prefix",
+      "group": "ManaLeech",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              0.8
+            ],
+            "max": [
+              1.0
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              0.4
+            ],
+            "max": [
+              0.7
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              0.2
+            ],
+            "max": [
+              0.3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fire_cold_res",
+      "pattern": "+#% to Fire and Cold Resistances",
+      "name": "Fire and Cold Resistance",
+      "type": "Suffix",
+      "group": "HybridRes",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              6
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fire_light_res",
+      "pattern": "+#% to Fire and Lightning Resistances",
+      "name": "Fire and Lightning Resistance",
+      "type": "Suffix",
+      "group": "HybridRes",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              6
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cold_light_res",
+      "pattern": "+#% to Cold and Lightning Resistances",
+      "name": "Cold and Lightning Resistance",
+      "type": "Suffix",
+      "group": "HybridRes",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              6
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "spell_suppress",
+      "pattern": "#% chance to Suppress Spell Damage",
+      "name": "Spell Suppression",
+      "type": "Suffix",
+      "group": "SpellSuppression",
+      "groups": [
+        "armour"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              14
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              13
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_chance",
+      "pattern": "+#% Chance to Block",
+      "name": "Block Chance",
+      "type": "Suffix",
+      "group": "Block",
+      "groups": [
+        "shield"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              5
+            ],
+            "max": [
+              8
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              3
+            ],
+            "max": [
+              4
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              1
+            ],
+            "max": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "spell_block",
+      "pattern": "#% Chance to Block Spell Damage",
+      "name": "Spell Block",
+      "type": "Suffix",
+      "group": "SpellBlock",
+      "groups": [
+        "shield"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              5
+            ],
+            "max": [
+              8
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              3
+            ],
+            "max": [
+              4
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              1
+            ],
+            "max": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "flask_duration",
+      "pattern": "#% increased Flask Effect Duration",
+      "name": "Flask Duration",
+      "type": "Suffix",
+      "group": "Flask",
+      "groups": [
+        "belt"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              12
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "flask_effect",
+      "pattern": "#% increased Flask Effect",
+      "name": "Flask Effect",
+      "type": "Prefix",
+      "group": "Flask",
+      "groups": [
+        "belt"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "projectile_speed",
+      "pattern": "#% increased Projectile Speed",
+      "name": "Projectile Speed",
+      "type": "Suffix",
+      "group": "ProjectileSpeed",
+      "groups": [
+        "weapon",
+        "quiver"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              26
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              16
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "area_of_effect",
+      "pattern": "#% increased Area of Effect",
+      "name": "Area of Effect",
+      "type": "Suffix",
+      "group": "AoE",
+      "groups": [
+        "helmet",
+        "amulet",
+        "staff"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              9
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooldown_recovery",
+      "pattern": "#% increased Cooldown Recovery Rate",
+      "name": "Cooldown Recovery",
+      "type": "Suffix",
+      "group": "Cooldown",
+      "groups": [
+        "helmet",
+        "amulet"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              12
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              7
+            ],
+            "max": [
+              11
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              6
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "aura_effect",
+      "pattern": "#% increased Effect of Non-Curse Auras from your Skills",
+      "name": "Aura Effect",
+      "type": "Suffix",
+      "group": "Aura",
+      "groups": [
+        "amulet",
+        "body"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "curse_effect",
+      "pattern": "#% increased Effect of your Curses",
+      "name": "Curse Effect",
+      "type": "Suffix",
+      "group": "Curse",
+      "groups": [
+        "amulet",
+        "ring"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "minion_damage",
+      "pattern": "Minions deal #% increased Damage",
+      "name": "Minion Damage",
+      "type": "Prefix",
+      "group": "Minion",
+      "groups": [
+        "helmet",
+        "amulet",
+        "wand",
+        "staff"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              30
+            ],
+            "max": [
+              40
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              18
+            ],
+            "max": [
+              29
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              17
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "socketed_gem_level",
+      "pattern": "+# to Level of Socketed Gems",
+      "name": "Socketed Gem Level",
+      "type": "Prefix",
+      "group": "GemLevel",
+      "groups": [
+        "armour"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "socketed_bow_gems",
+      "pattern": "+# to Level of Socketed Bow Gems",
+      "name": "Socketed Bow Gems",
+      "type": "Prefix",
+      "group": "GemLevel",
+      "groups": [
+        "bow"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              2
+            ],
+            "max": [
+              2
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "socketed_minion_gems",
+      "pattern": "+# to Level of Socketed Minion Gems",
+      "name": "Socketed Minion Gems",
+      "type": "Prefix",
+      "group": "GemLevel",
+      "groups": [
+        "helmet"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              2
+            ],
+            "max": [
+              2
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dot_multi",
+      "pattern": "+#% to Damage over Time Multiplier",
+      "name": "DoT Multiplier",
+      "type": "Suffix",
+      "group": "DoTMulti",
+      "groups": [
+        "amulet",
+        "ring",
+        "weapon"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fire_dot_multi",
+      "pattern": "+#% to Fire Damage over Time Multiplier",
+      "name": "Fire DoT Multiplier",
+      "type": "Suffix",
+      "group": "FireDoT",
+      "groups": [
+        "amulet",
+        "weapon"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "chaos_dot_multi",
+      "pattern": "+#% to Chaos Damage over Time Multiplier",
+      "name": "Chaos DoT Multiplier",
+      "type": "Suffix",
+      "group": "ChaosDoT",
+      "groups": [
+        "amulet",
+        "weapon"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crit_for_spells",
+      "pattern": "#% increased Critical Strike Chance for Spells",
+      "name": "Spell Crit Chance",
+      "type": "Suffix",
+      "group": "SpellCrit",
+      "groups": [
+        "caster",
+        "amulet"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              80
+            ],
+            "max": [
+              109
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              50
+            ],
+            "max": [
+              79
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              20
+            ],
+            "max": [
+              49
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_speed_suffix_extra",
+      "pattern": "#% increased Cast Speed for Socketed Gems",
+      "name": "Cast Speed Socketed",
+      "type": "Suffix",
+      "group": "CastSpeedSocketed",
+      "groups": [
+        "staff",
+        "wand"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              12
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              6
+            ],
+            "max": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "light_radius",
+      "pattern": "#% increased Light Radius",
+      "name": "Light Radius",
+      "type": "Suffix",
+      "group": "LightRadius",
+      "groups": [
+        "helmet",
+        "amulet"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "item_quantity",
+      "pattern": "#% increased Quantity of Items found",
+      "name": "Item Quantity",
+      "type": "Suffix",
+      "group": "IIQ",
+      "groups": [
+        "amulet",
+        "ring",
+        "helmet"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              6
+            ],
+            "max": [
+              10
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              4
+            ],
+            "max": [
+              5
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2
+            ],
+            "max": [
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "avoid_stun",
+      "pattern": "#% chance to Avoid being Stunned",
+      "name": "Avoid Stun",
+      "type": "Suffix",
+      "group": "AvoidStun",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              23
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              15
+            ],
+            "max": [
+              22
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "stun_threshold",
+      "pattern": "#% increased Stun Threshold",
+      "name": "Stun Threshold",
+      "type": "Suffix",
+      "group": "StunThreshold",
+      "groups": [
+        "armour"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              30
+            ],
+            "max": [
+              35
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              18
+            ],
+            "max": [
+              29
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              17
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "life_percent",
+      "pattern": "#% increased maximum Life",
+      "name": "Increased maximum Life",
+      "type": "Prefix",
+      "group": "LifePercent",
+      "groups": [
+        "body",
+        "amulet"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              8
+            ],
+            "max": [
+              10
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              5
+            ],
+            "max": [
+              7
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mana_percent",
+      "pattern": "#% increased maximum Mana",
+      "name": "Increased maximum Mana",
+      "type": "Prefix",
+      "group": "ManaPercent",
+      "groups": [
+        "helmet",
+        "ring",
+        "amulet"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              12
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              11
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "es_recharge",
+      "pattern": "#% faster start of Energy Shield Recharge",
+      "name": "ES Recharge Start",
+      "type": "Suffix",
+      "group": "ESRecharge",
+      "groups": [
+        "armour",
+        "amulet"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              25
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              15
+            ],
+            "max": [
+              24
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "add_fire_attacks",
+      "pattern": "Adds # to # Fire Damage to Attacks",
+      "name": "Added Fire to Attacks",
+      "type": "Prefix",
+      "group": "AddedFire",
+      "groups": [
+        "jewellery",
+        "gloves",
+        "quiver"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 77,
+            "min": [
+              11,
+              22
+            ],
+            "max": [
+              18,
+              32
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6,
+              13
+            ],
+            "max": [
+              10,
+              21
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2,
+              6
+            ],
+            "max": [
+              5,
+              12
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "add_cold_attacks",
+      "pattern": "Adds # to # Cold Damage to Attacks",
+      "name": "Added Cold to Attacks",
+      "type": "Prefix",
+      "group": "AddedCold",
+      "groups": [
+        "jewellery",
+        "gloves",
+        "quiver"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 77,
+            "min": [
+              11,
+              22
+            ],
+            "max": [
+              18,
+              32
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6,
+              13
+            ],
+            "max": [
+              10,
+              21
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2,
+              6
+            ],
+            "max": [
+              5,
+              12
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "add_lightning_attacks",
+      "pattern": "Adds # to # Lightning Damage to Attacks",
+      "name": "Added Lightning to Attacks",
+      "type": "Prefix",
+      "group": "AddedLightning",
+      "groups": [
+        "jewellery",
+        "gloves",
+        "quiver"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 77,
+            "min": [
+              11,
+              22
+            ],
+            "max": [
+              18,
+              32
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6,
+              13
+            ],
+            "max": [
+              10,
+              21
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2,
+              6
+            ],
+            "max": [
+              5,
+              12
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "add_chaos_attacks",
+      "pattern": "Adds # to # Chaos Damage to Attacks",
+      "name": "Added Chaos to Attacks",
+      "type": "Prefix",
+      "group": "AddedChaos",
+      "groups": [
+        "jewellery",
+        "weapon"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 77,
+            "min": [
+              11,
+              22
+            ],
+            "max": [
+              18,
+              32
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6,
+              13
+            ],
+            "max": [
+              10,
+              21
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2,
+              6
+            ],
+            "max": [
+              5,
+              12
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "local_phys_flat",
+      "pattern": "Adds # to # Physical Damage",
+      "name": "Local Physical Damage",
+      "type": "Prefix",
+      "group": "LocalPhys",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 77,
+            "min": [
+              11,
+              22
+            ],
+            "max": [
+              18,
+              32
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6,
+              13
+            ],
+            "max": [
+              10,
+              21
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2,
+              6
+            ],
+            "max": [
+              5,
+              12
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "local_attack_speed",
+      "pattern": "#% increased Attack Speed",
+      "name": "Local Attack Speed",
+      "type": "Suffix",
+      "group": "LocalAS",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              26
+            ],
+            "max": [
+              27
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bleed_chance",
+      "pattern": "#% chance to cause Bleeding on Hit",
+      "name": "Bleed Chance",
+      "type": "Suffix",
+      "group": "Bleed",
+      "groups": [
+        "weapon",
+        "gloves"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "poison_chance",
+      "pattern": "#% chance to Poison on Hit",
+      "name": "Poison Chance",
+      "type": "Suffix",
+      "group": "Poison",
+      "groups": [
+        "weapon",
+        "gloves",
+        "quiver"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ignite_chance",
+      "pattern": "#% chance to Ignite",
+      "name": "Ignite Chance",
+      "type": "Suffix",
+      "group": "Ignite",
+      "groups": [
+        "weapon",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "freeze_chance",
+      "pattern": "#% chance to Freeze",
+      "name": "Freeze Chance",
+      "type": "Suffix",
+      "group": "Freeze",
+      "groups": [
+        "weapon",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shock_chance",
+      "pattern": "#% chance to Shock",
+      "name": "Shock Chance",
+      "type": "Suffix",
+      "group": "Shock",
+      "groups": [
+        "weapon",
+        "jewellery"
+      ],
+      "influence": "",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shaper_phys_as_extra_cold",
+      "pattern": "Gain #% of Physical Damage as Extra Cold Damage",
+      "name": "Phys as Extra Cold",
+      "type": "Prefix",
+      "group": "ExtraCold",
+      "groups": [
+        "weapon",
+        "amulet"
+      ],
+      "influence": "Shaper",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              9
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shaper_elem_pen",
+      "pattern": "Damage Penetrates #% Elemental Resistances",
+      "name": "Elemental Penetration",
+      "type": "Prefix",
+      "group": "ElePen",
+      "groups": [
+        "weapon",
+        "amulet"
+      ],
+      "influence": "Shaper",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              8
+            ],
+            "max": [
+              10
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              5
+            ],
+            "max": [
+              7
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2
+            ],
+            "max": [
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shaper_socket_gmp",
+      "pattern": "Socketed Gems are Supported by Level # Greater Multiple Projectiles",
+      "name": "Socketed GMP",
+      "type": "Prefix",
+      "group": "SupportGMP",
+      "groups": [
+        "bow",
+        "wand"
+      ],
+      "influence": "Shaper",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              18
+            ],
+            "max": [
+              18
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              16
+            ],
+            "max": [
+              16
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shaper_es_recovery",
+      "pattern": "#% increased Energy Shield Recovery rate",
+      "name": "ES Recovery Rate",
+      "type": "Suffix",
+      "group": "ESRecovery",
+      "groups": [
+        "armour",
+        "amulet"
+      ],
+      "influence": "Shaper",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shaper_power_charge_on_kill",
+      "pattern": "#% chance to gain a Power Charge on Kill",
+      "name": "Power Charge on Kill",
+      "type": "Suffix",
+      "group": "PowerCharge",
+      "groups": [
+        "weapon",
+        "helmet"
+      ],
+      "influence": "Shaper",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shaper_taken_as_fire",
+      "pattern": "#% of Physical Damage from Hits taken as Fire Damage",
+      "name": "Phys taken as Fire",
+      "type": "Suffix",
+      "group": "TakenAsFire",
+      "groups": [
+        "body",
+        "shield"
+      ],
+      "influence": "Shaper",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              8
+            ],
+            "max": [
+              10
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              5
+            ],
+            "max": [
+              7
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2
+            ],
+            "max": [
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shaper_crit_multi_spells",
+      "pattern": "+#% to Critical Strike Multiplier for Spell Damage",
+      "name": "Spell Crit Multi",
+      "type": "Suffix",
+      "group": "SpellCritMulti",
+      "groups": [
+        "caster",
+        "amulet"
+      ],
+      "influence": "Shaper",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              25
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              15
+            ],
+            "max": [
+              24
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "elder_fortify_effect",
+      "pattern": "#% increased effect of Fortify on you",
+      "name": "Fortify Effect",
+      "type": "Suffix",
+      "group": "Fortify",
+      "groups": [
+        "body",
+        "boots"
+      ],
+      "influence": "Elder",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              12
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              6
+            ],
+            "max": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "elder_reduced_crit_taken",
+      "pattern": "You take #% reduced Extra Damage from Critical Strikes",
+      "name": "Reduced Extra Crit Taken",
+      "type": "Suffix",
+      "group": "CritReduce",
+      "groups": [
+        "body",
+        "shield",
+        "helmet"
+      ],
+      "influence": "Elder",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              30
+            ],
+            "max": [
+              40
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              18
+            ],
+            "max": [
+              29
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              17
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "elder_endurance_on_hit",
+      "pattern": "#% chance to gain an Endurance Charge when you are Hit",
+      "name": "Endurance on Hit",
+      "type": "Suffix",
+      "group": "Endurance",
+      "groups": [
+        "body",
+        "shield"
+      ],
+      "influence": "Elder",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "elder_socket_melee_phys",
+      "pattern": "Socketed Gems are Supported by Level # Melee Physical Damage",
+      "name": "Socketed Melee Phys",
+      "type": "Prefix",
+      "group": "SupportMelee",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "Elder",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              18
+            ],
+            "max": [
+              18
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              16
+            ],
+            "max": [
+              16
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "elder_max_res",
+      "pattern": "+#% to all maximum Resistances",
+      "name": "Maximum Resistances",
+      "type": "Suffix",
+      "group": "MaxRes",
+      "groups": [
+        "body",
+        "amulet"
+      ],
+      "influence": "Elder",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              2
+            ],
+            "max": [
+              3
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "elder_taunt",
+      "pattern": "#% chance to Taunt on Hit",
+      "name": "Taunt on Hit",
+      "type": "Suffix",
+      "group": "Taunt",
+      "groups": [
+        "weapon",
+        "shield"
+      ],
+      "influence": "Elder",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "elder_phys_taken_as_chaos",
+      "pattern": "#% of Physical Damage from Hits taken as Chaos Damage",
+      "name": "Phys taken as Chaos",
+      "type": "Suffix",
+      "group": "TakenAsChaos",
+      "groups": [
+        "body"
+      ],
+      "influence": "Elder",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              8
+            ],
+            "max": [
+              10
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              5
+            ],
+            "max": [
+              7
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2
+            ],
+            "max": [
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crusader_fire_pen",
+      "pattern": "Damage Penetrates #% Fire Resistance",
+      "name": "Fire Penetration",
+      "type": "Prefix",
+      "group": "FirePen",
+      "groups": [
+        "weapon",
+        "amulet"
+      ],
+      "influence": "Crusader",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              10
+            ],
+            "max": [
+              12
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6
+            ],
+            "max": [
+              9
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crusader_phys_as_fire",
+      "pattern": "Gain #% of Physical Damage as Extra Fire Damage",
+      "name": "Phys as Extra Fire",
+      "type": "Prefix",
+      "group": "ExtraFire",
+      "groups": [
+        "weapon",
+        "ring"
+      ],
+      "influence": "Crusader",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              9
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crusader_burning",
+      "pattern": "#% increased Burning Damage",
+      "name": "Burning Damage",
+      "type": "Prefix",
+      "group": "Burning",
+      "groups": [
+        "weapon",
+        "amulet",
+        "helmet"
+      ],
+      "influence": "Crusader",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              30
+            ],
+            "max": [
+              40
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              16
+            ],
+            "max": [
+              29
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crusader_nearby_fire_res",
+      "pattern": "Nearby Enemies have -#% to Fire Resistance",
+      "name": "Nearby Fire Res",
+      "type": "Suffix",
+      "group": "AuraFire",
+      "groups": [
+        "helmet",
+        "amulet"
+      ],
+      "influence": "Crusader",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              9
+            ],
+            "max": [
+              12
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              5
+            ],
+            "max": [
+              8
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2
+            ],
+            "max": [
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crusader_consecrated",
+      "pattern": "You have Consecrated Ground around you while stationary",
+      "name": "Consecrated Ground",
+      "type": "Suffix",
+      "group": "Consecrated",
+      "groups": [
+        "boots"
+      ],
+      "influence": "Crusader",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 1,
+            "min": [],
+            "max": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "crusader_recoup_fire",
+      "pattern": "#% of Fire Damage taken Recouped as Life",
+      "name": "Fire Recoup",
+      "type": "Suffix",
+      "group": "Recoup",
+      "groups": [
+        "body",
+        "amulet"
+      ],
+      "influence": "Crusader",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              10
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6
+            ],
+            "max": [
+              9
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crusader_ignore_fire_res",
+      "pattern": "Hits ignore Enemy Monster Fire Resistance",
+      "name": "Ignore Fire Res",
+      "type": "Prefix",
+      "group": "IgnoreFire",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "Crusader",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 1,
+            "min": [],
+            "max": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "redeemer_cold_pen",
+      "pattern": "Damage Penetrates #% Cold Resistance",
+      "name": "Cold Penetration",
+      "type": "Prefix",
+      "group": "ColdPen",
+      "groups": [
+        "weapon",
+        "amulet"
+      ],
+      "influence": "Redeemer",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              10
+            ],
+            "max": [
+              12
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6
+            ],
+            "max": [
+              9
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "redeemer_phys_as_cold",
+      "pattern": "Gain #% of Physical Damage as Extra Cold Damage",
+      "name": "Phys as Extra Cold (Redeemer)",
+      "type": "Prefix",
+      "group": "ExtraCold",
+      "groups": [
+        "weapon",
+        "ring"
+      ],
+      "influence": "Redeemer",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              9
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "redeemer_avoid_freeze",
+      "pattern": "#% chance to Avoid being Frozen",
+      "name": "Avoid Freeze",
+      "type": "Suffix",
+      "group": "AvoidFreeze",
+      "groups": [
+        "armour",
+        "jewellery"
+      ],
+      "influence": "Redeemer",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              50
+            ],
+            "max": [
+              60
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              30
+            ],
+            "max": [
+              49
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              15
+            ],
+            "max": [
+              29
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "redeemer_chill_effect",
+      "pattern": "#% increased Effect of Chill",
+      "name": "Chill Effect",
+      "type": "Suffix",
+      "group": "Chill",
+      "groups": [
+        "helmet",
+        "amulet",
+        "weapon"
+      ],
+      "influence": "Redeemer",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "redeemer_nearby_chilled",
+      "pattern": "Nearby Enemies are Chilled",
+      "name": "Nearby Chilled",
+      "type": "Suffix",
+      "group": "AuraChill",
+      "groups": [
+        "helmet",
+        "boots"
+      ],
+      "influence": "Redeemer",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 1,
+            "min": [],
+            "max": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "redeemer_freeze_on_hit",
+      "pattern": "Hits have #% chance to Freeze",
+      "name": "Hit Freeze Chance",
+      "type": "Suffix",
+      "group": "FreezeHit",
+      "groups": [
+        "weapon",
+        "gloves"
+      ],
+      "influence": "Redeemer",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "redeemer_elusive",
+      "pattern": "#% chance to gain Elusive on Kill",
+      "name": "Elusive on Kill",
+      "type": "Suffix",
+      "group": "Elusive",
+      "groups": [
+        "boots",
+        "gloves"
+      ],
+      "influence": "Redeemer",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hunter_chaos_damage",
+      "pattern": "#% increased Chaos Damage",
+      "name": "Increased Chaos Damage",
+      "type": "Prefix",
+      "group": "ChaosDamage",
+      "groups": [
+        "weapon",
+        "amulet",
+        "ring"
+      ],
+      "influence": "Hunter",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              30
+            ],
+            "max": [
+              40
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              16
+            ],
+            "max": [
+              29
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hunter_blind",
+      "pattern": "Nearby Enemies are Blinded",
+      "name": "Nearby Blind",
+      "type": "Suffix",
+      "group": "BlindAura",
+      "groups": [
+        "helmet",
+        "boots"
+      ],
+      "influence": "Hunter",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 1,
+            "min": [],
+            "max": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "hunter_poison_on_hit",
+      "pattern": "#% chance to Poison on Hit",
+      "name": "Poison on Hit (Hunter)",
+      "type": "Suffix",
+      "group": "Poison",
+      "groups": [
+        "weapon",
+        "gloves"
+      ],
+      "influence": "Hunter",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hunter_phys_to_chaos",
+      "pattern": "#% of Physical Damage Converted to Chaos Damage",
+      "name": "Phys to Chaos",
+      "type": "Prefix",
+      "group": "PhysConvertChaos",
+      "groups": [
+        "weapon",
+        "amulet"
+      ],
+      "influence": "Hunter",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              25
+            ],
+            "max": [
+              30
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              15
+            ],
+            "max": [
+              24
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hunter_chaos_res_pen",
+      "pattern": "Damage Penetrates #% Chaos Resistance",
+      "name": "Chaos Penetration",
+      "type": "Prefix",
+      "group": "ChaosPen",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "Hunter",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              8
+            ],
+            "max": [
+              10
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              5
+            ],
+            "max": [
+              7
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2
+            ],
+            "max": [
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hunter_wither",
+      "pattern": "#% chance to inflict Withered for 2 seconds on Hit",
+      "name": "Wither on Hit",
+      "type": "Suffix",
+      "group": "Wither",
+      "groups": [
+        "weapon",
+        "ring"
+      ],
+      "influence": "Hunter",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hunter_add_chaos",
+      "pattern": "Adds # to # Chaos Damage",
+      "name": "Added Chaos (Hunter)",
+      "type": "Prefix",
+      "group": "AddedChaosLocal",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "Hunter",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 77,
+            "min": [
+              11,
+              22
+            ],
+            "max": [
+              18,
+              32
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              6,
+              13
+            ],
+            "max": [
+              10,
+              21
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              2,
+              6
+            ],
+            "max": [
+              5,
+              12
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlord_ignore_pdr",
+      "pattern": "Hits have #% chance to ignore Enemy Physical Damage Reduction",
+      "name": "Ignore PDR",
+      "type": "Prefix",
+      "group": "IgnorePDR",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "Warlord",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlord_impale",
+      "pattern": "#% chance to Impale Enemies on Hit",
+      "name": "Impale Chance",
+      "type": "Suffix",
+      "group": "Impale",
+      "groups": [
+        "weapon",
+        "gloves"
+      ],
+      "influence": "Warlord",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              20
+            ],
+            "max": [
+              25
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              10
+            ],
+            "max": [
+              19
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              5
+            ],
+            "max": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlord_fortify",
+      "pattern": "Hits grant Fortify",
+      "name": "Hits grant Fortify",
+      "type": "Suffix",
+      "group": "FortifyOnHit",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "Warlord",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 1,
+            "min": [],
+            "max": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlord_phys_percent",
+      "pattern": "#% increased Physical Damage",
+      "name": "Physical Damage (Warlord)",
+      "type": "Prefix",
+      "group": "PhysPercent",
+      "groups": [
+        "weapon",
+        "amulet"
+      ],
+      "influence": "Warlord",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              40
+            ],
+            "max": [
+              50
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              25
+            ],
+            "max": [
+              39
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              12
+            ],
+            "max": [
+              24
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlord_extra_random_ele",
+      "pattern": "Gain #% of Physical Damage as Extra Damage of a random Element",
+      "name": "Phys as Random Ele",
+      "type": "Prefix",
+      "group": "ExtraRandom",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "Warlord",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              16
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              9
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlord_rage_on_hit",
+      "pattern": "Gain # Rage on Hit with Attacks",
+      "name": "Rage on Hit",
+      "type": "Suffix",
+      "group": "Rage",
+      "groups": [
+        "weapon",
+        "gloves"
+      ],
+      "influence": "Warlord",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              3
+            ],
+            "max": [
+              4
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              2
+            ],
+            "max": [
+              2
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              1
+            ],
+            "max": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlord_intimidate",
+      "pattern": "Hits Intimidate Enemies for 4 seconds on Hit",
+      "name": "Intimidate",
+      "type": "Suffix",
+      "group": "Intimidate",
+      "groups": [
+        "weapon"
+      ],
+      "influence": "Warlord",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 1,
+            "min": [],
+            "max": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "eater_explode",
+      "pattern": "Enemies you Kill have a #% chance to Explode, dealing a tenth of their maximum Life as Physical Damage",
+      "name": "Eater Explode",
+      "type": "Suffix",
+      "group": "Explode",
+      "groups": [
+        "helmet",
+        "body"
+      ],
+      "influence": "Eater",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              15
+            ],
+            "max": [
+              20
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              8
+            ],
+            "max": [
+              14
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              4
+            ],
+            "max": [
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exarch_pen_fire",
+      "pattern": "Damage Penetrates #% Fire Resistance",
+      "name": "Exarch Fire Pen",
+      "type": "Prefix",
+      "group": "FirePen",
+      "groups": [
+        "amulet",
+        "ring"
+      ],
+      "influence": "Exarch",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              12
+            ],
+            "max": [
+              15
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              7
+            ],
+            "max": [
+              11
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              6
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "eater_action_speed",
+      "pattern": "#% increased Action Speed",
+      "name": "Action Speed",
+      "type": "Suffix",
+      "group": "ActionSpeed",
+      "groups": [
+        "boots",
+        "amulet"
+      ],
+      "influence": "Eater",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              8
+            ],
+            "max": [
+              10
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              5
+            ],
+            "max": [
+              7
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              3
+            ],
+            "max": [
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exarch_crit",
+      "pattern": "#% increased Critical Strike Chance",
+      "name": "Exarch Crit",
+      "type": "Suffix",
+      "group": "Crit",
+      "groups": [
+        "amulet",
+        "weapon"
+      ],
+      "influence": "Exarch",
+      "tiers_by_class": {
+        "_default": [
+          {
+            "tier": 1,
+            "name": "",
+            "ilvl": 80,
+            "min": [
+              30
+            ],
+            "max": [
+              40
+            ]
+          },
+          {
+            "tier": 2,
+            "name": "",
+            "ilvl": 50,
+            "min": [
+              16
+            ],
+            "max": [
+              29
+            ]
+          },
+          {
+            "tier": 3,
+            "name": "",
+            "ilvl": 20,
+            "min": [
+              8
+            ],
+            "max": [
+              15
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
