@@ -1,0 +1,6 @@
+{
+  "name": "PoE Crafter",
+  "description": "Path of Exile Alt / Aug auto-crafting companion, screen position calibrator, modifier database explorer, and regex matcher.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
