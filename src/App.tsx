@@ -223,7 +223,7 @@ export const App: React.FC = () => {
 
     runningRef.current = true;
     setIsRunning(true);
-    addLog(`[START] Crafting loop started for ${itemClass}. Press F2 or [Stop] to halt.`, 'info');
+    addLog(`[START] Crafting loop started for ${itemClass}. Press F9 or [Stop] to halt.`, 'info');
 
     let rollCount = 0;
 
@@ -287,10 +287,10 @@ export const App: React.FC = () => {
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement)?.tagName)) {
         return;
       }
-      if (e.key === 'F1') {
+      if (e.key === 'F8') {
         e.preventDefault();
         handleStartCraft();
-      } else if (e.key === 'F2') {
+      } else if (e.key === 'F9') {
         e.preventDefault();
         handleStopCraft();
       } else if (e.key === 'F6') {
@@ -342,15 +342,15 @@ global DELAY_BETWEEN:= ${Math.round(settings.delay_between * 1000)}
 
 global IsRunning := false
 
-TrayTip, PoE Crafter, Loaded. Press F1 to Start, F2 to Stop., 4
+TrayTip, PoE Crafter, Loaded. Press F8 to Start, F9 to Stop., 4
 
-F1::
+F8::
   IsRunning := true
   TrayTip, PoE Crafter, Crafting loop started., 2
   SetTimer, CraftLoop, -1
 return
 
-F2::
+F9::
   IsRunning := false
   TrayTip, PoE Crafter, Crafting stopped., 2
 return

@@ -15,18 +15,6 @@ import {
 import { AppSettings, SelectedTarget, CompiledTarget } from '../types';
 import { ModsDatabase, compileTarget } from '../utils/modsDb';
 
-declare global {
-  interface Window {
-    electronAPI?: {
-      isElectron: () => boolean;
-      startCraft: (scriptContent: string) => void;
-      stopCraft: () => void;
-      onLog: (callback: (data: { message: string; type: 'info' | 'alt' | 'aug' | 'success' | 'warn' }) => void) => void;
-      onStatusChange: (callback: (isRunning: boolean) => void) => void;
-    };
-  }
-}
-
 interface CraftingControlPanelProps {
   db: ModsDatabase;
   itemClass: string;
@@ -53,7 +41,7 @@ export const CraftingControlPanel: React.FC<CraftingControlPanelProps> = ({
     {
       id: 1,
       time: new Date().toLocaleTimeString(),
-      text: `Crafter ready for ${itemClass}. Select 1 or 2 mods, calibrate coords (F6/F7/F10), then Start (F1).`,
+      text: `Crafter ready for ${itemClass}. Select 1 or 2 mods, calibrate coords (F6/F7/F10), then Start (F8).`,
       type: 'info',
     },
   ]);
@@ -105,19 +93,19 @@ export const CraftingControlPanel: React.FC<CraftingControlPanelProps> = ({
     ]);
   };
 
-  // Keyboard shortcut listener for F1 / F2 / F6 / F7 / F10
+  // Keyboard shortcut listener for F8 / F9 / F6 / F7 / F10
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement)?.tagName)) {
         return;
       }
 
-      if (e.key === 'F1') {
+      if (e.key === 'F8') {
         e.preventDefault();
         handleStart();
-      } else if (e.key === 'F2') {
+      } else if (e.key === 'F9') {
         e.preventDefault();
-        handleStop('F2 pressed');
+        handleStop('F9 pressed');
       } else if (e.key === 'F6') {
         e.preventDefault();
         onOpenPinModal('Item Slot');
@@ -133,27 +121,6 @@ export const CraftingControlPanel: React.FC<CraftingControlPanelProps> = ({
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [selectedTargets, form]);
-
-  // Subscribe to Electron events if running inside Electron shell
-  useEffect(() => {
-    if (window.electronAPI) {
-      window.electronAPI.onLog((logData) => {
-        addLog(logData.message, logData.type);
-      });
-
-      window.electronAPI.onStatusChange((isRunning) => {
-        if (isRunning) {
-          setStatus('running');
-          runningRef.current = true;
-        } else {
-          setStatus('stopped');
-          runningRef.current = false;
-        }
-      });
-      
-      addLog('[Electron] Native Desktop Environment detected! Using built-in AutoHotkey executor.', 'success');
-    }
-  }, []);
 
   const simulateRoll = () => {
     // Check if targets are met in simulated roll
@@ -197,13 +164,6 @@ export const CraftingControlPanel: React.FC<CraftingControlPanelProps> = ({
     if (runningRef.current) return;
     if (selectedTargets.length === 0) {
       addLog('Select at least 1 target modifier before starting craft engine.', 'warn');
-      return;
-    }
-
-    if (window.electronAPI) {
-      addLog('[Electron] Sending active script to native AutoHotkey runner...', 'info');
-      const script = generateAhkScript();
-      window.electronAPI.startCraft(script);
       return;
     }
 
@@ -252,11 +212,6 @@ export const CraftingControlPanel: React.FC<CraftingControlPanelProps> = ({
   };
 
   const handleStop = (reason = 'Manual stop') => {
-    if (window.electronAPI) {
-      window.electronAPI.stopCraft();
-      return;
-    }
-
     if (!runningRef.current && status === 'idle') return;
     runningRef.current = false;
     if (timerRef.current) {
@@ -391,18 +346,18 @@ global HUMANIZE     := ${form.humanize ? '1' : '0'}
 
 global IsRunning := false
 
-TrayTip, PoE Alt Crafter, Loaded. Press F1 to Start, F2 to Stop., 4
+TrayTip, PoE Alt Crafter, Loaded. Press F8 to Start, F9 to Stop., 4
 
 ; --- Hotkeys ---
-F1::
+F8::
   if (!IsRunning) {
     IsRunning := true
-    TrayTip, PoE Crafter, Crafting loop started (F2 to Stop)..., 2
+    TrayTip, PoE Crafter, Crafting loop started (F9 to Stop)..., 2
     SetTimer, CraftLoop, -1
   }
 return
 
-F2::
+F9::
   IsRunning := false
   TrayTip, PoE Crafter, Crafting stopped by user., 2
 return
@@ -634,7 +589,7 @@ return
             }`}
           >
             <Play className="w-3.5 h-3.5 fill-current" />
-            <span>START [F1]</span>
+            <span>START [F8]</span>
           </button>
 
           <button
@@ -649,7 +604,7 @@ return
             }`}
           >
             <Square className="w-3.5 h-3.5 fill-current" />
-            <span>STOP [F2]</span>
+            <span>STOP [F9]</span>
           </button>
 
           <button

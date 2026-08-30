@@ -115,11 +115,11 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
               <table className="w-full text-[11px] font-mono border-collapse">
                 <tbody>
                   <tr className="border-b border-[#2d3139]">
-                    <td className="py-1 px-2 text-[#98c379] font-bold w-20">F1</td>
+                    <td className="py-1 px-2 text-[#98c379] font-bold w-20">F8</td>
                     <td className="py-1 px-2 text-[#abb2bf]">Start / Resume crafting loop</td>
                   </tr>
                   <tr className="border-b border-[#2d3139]">
-                    <td className="py-1 px-2 text-[#e06c75] font-bold">F2</td>
+                    <td className="py-1 px-2 text-[#e06c75] font-bold">F9</td>
                     <td className="py-1 px-2 text-[#abb2bf]">Emergency Stop crafting loop</td>
                   </tr>
                   <tr className="border-b border-[#2d3139]">

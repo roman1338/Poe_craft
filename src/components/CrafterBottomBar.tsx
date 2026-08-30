@@ -56,12 +56,12 @@ export const CrafterBottomBar: React.FC<CrafterBottomBarProps> = ({
         {isRunning ? (
           <>
             <Square className="w-3.5 h-3.5 fill-current" />
-            <span>Stop craft [F2]</span>
+            <span>Stop craft [F9]</span>
           </>
         ) : (
           <>
             <Play className="w-3.5 h-3.5 fill-current" />
-            <span>Start craft [F1]</span>
+            <span>Start craft [F8]</span>
           </>
         )}
       </button>

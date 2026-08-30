@@ -43,7 +43,7 @@ export const CrafterConsoleLog: React.FC<CrafterConsoleLogProps> = ({ logs, onCl
 
       <div ref={containerRef} className="flex-1 p-2 overflow-y-auto space-y-0.5 text-[11px]">
         {logs.length === 0 ? (
-          <div className="text-[#64748b]">Log is currently empty. Press [Start craft] or F1 to begin.</div>
+          <div className="text-[#64748b]">Log is currently empty. Press [Start craft] or F8 to begin.</div>
         ) : (
           logs.map((l) => (
             <div key={l.id} className="flex items-start gap-1.5 leading-tight">
