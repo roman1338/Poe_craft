@@ -239,11 +239,11 @@ export const GeneralTab: React.FC<GeneralTabProps> = ({
 
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-1.5 font-mono text-[11px]">
           <div className="bg-[#0e1219] border border-[#273043] p-1.5 text-center">
-            <span className="font-bold text-[#98c379] block">F8</span>
+            <span className="font-bold text-[#98c379] block">F1</span>
             <span className="text-[10px] text-[#cbd5e1]">Start / Resume</span>
           </div>
           <div className="bg-[#0e1219] border border-[#273043] p-1.5 text-center">
-            <span className="font-bold text-[#f87171] block">F9</span>
+            <span className="font-bold text-[#f87171] block">F2</span>
             <span className="text-[10px] text-[#cbd5e1]">Emergency Stop</span>
           </div>
           <div className="bg-[#0e1219] border border-[#273043] p-1.5 text-center">

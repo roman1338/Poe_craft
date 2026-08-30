@@ -277,7 +277,7 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
             <Play className="w-3 h-3 fill-current" />
-            <span>START (F8)</span>
+            <span>START (F1)</span>
           </button>
 
           {/* Stop Button */}
@@ -293,7 +293,7 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
             <Square className="w-3 h-3 fill-current" />
-            <span>STOP (F9)</span>
+            <span>STOP (F2)</span>
           </button>
 
           <div className="h-4 w-[1px] bg-[#3a3f4b] mx-1" />
@@ -360,9 +360,9 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* Hotkey reminder tag */}
         <div className="hidden lg:flex items-center gap-2 text-[11px] font-mono text-[#5c6370]">
-          <span>F8 Start</span>
+          <span>F1 Start</span>
           <span>·</span>
-          <span>F9 Stop</span>
+          <span>F2 Stop</span>
           <span>·</span>
           <span>F6/F7/F10 Positions</span>
         </div>
